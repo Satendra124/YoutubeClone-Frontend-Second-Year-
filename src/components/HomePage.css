@@ -1,0 +1,43 @@
+.main-flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navbar CSS */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: orange;
+}
+
+.searchBar {    
+    height: 35px;
+    width: 800px;
+    border-radius: 25px;
+}
+
+.signInButton {
+    height: 40px;
+    width: 80px;
+    border-radius: 20px;
+}
+
+
+
+.page {
+    display: flex;
+    height: 100vh;
+}
+
+/* SideBar CSS */
+.sidebar {
+    background-color: pink;
+    width: 20%;
+}
+
+.main {
+    background-color: aqua;
+    width: 100%;
+}
