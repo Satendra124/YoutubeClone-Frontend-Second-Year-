@@ -1,0 +1,106 @@
+.main-flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Navbar CSS */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.searchBar {
+  height: 35px;
+  width: 800px;
+  border-radius: 25px;
+}
+
+.signInButton {
+  height: 40px;
+  width: 80px;
+  border-radius: 20px;
+}
+
+.page {
+  display: flex;
+  height: 100vh;
+}
+
+/* SideBar CSS */
+.sidebar {
+  background-color: pink;
+  width: 20%;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+/* Card CSS */
+.thumbnail {
+  height: 200px;
+  border-radius: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.card-body {
+  display: flex;
+}
+
+.channelImage {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin: 5px;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+}
+
+/* <----------------------VideoPage CSS----------------------> */
+
+.videoPage {
+  display: flex;
+}
+
+.videoItem {
+  width: 65%;
+}
+
+.suggestionBar {
+  width: 30%;
+  margin: 20px;
+}
+
+.iframe-video {
+  width: 100%;
+  aspect-ratio: 16/9;
+  border-radius: 2%;
+  margin: 10px;
+}
+
+/* Suggestion Card CSS */
+
+.suggestion-card {
+  display: flex;
+}
+
+.suggestion-thumbnail {
+  height: 100px;
+  margin: 10px;
+  border-radius: 5%;
+}

@@ -1,15 +1,9 @@
 import React from "react";
-import "./HomePage.css";
+import VideoCard from "./VideoCard";
 
 const HomePage = () => {
   return (
     <div className="main-flex-container">
-      <div className="navbar">
-        <p>YOUTUBE</p>
-        <input className="searchBar" placeholder="  Search..." type="text" />
-        <button className="signInButton">Sign In</button>
-      </div>
-
       <div className="page">
         <div className="sidebar">
           <ul>
@@ -22,7 +16,14 @@ const HomePage = () => {
         </div>
 
         <div className="main">
-          <img src="../src/assets/Thumbnail.webp" alt="" />
+          <VideoCard />
+          <VideoCard />
+          <VideoCard />
+          <VideoCard />
+          <VideoCard />
+          <VideoCard />
+          <VideoCard />
+          <VideoCard />
         </div>
       </div>
     </div>
