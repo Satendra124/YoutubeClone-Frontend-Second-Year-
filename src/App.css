@@ -10,10 +10,34 @@
   align-items: center;
 }
 
+.yt-logo {
+  height: 30px;
+  cursor: pointer;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
 .searchBar {
-  height: 35px;
-  width: 800px;
-  border-radius: 25px;
+  height: 30px;
+  width: 750px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  margin: 5px;
+  padding-left: 2%;
+  border: 1px solid #666;
+}
+
+.searchButton {
+  height: 34px;
+  width: 90px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  background-color: #f8f9fa;
+  margin: -7px;
+  border: 1px solid #666;
 }
 
 .signInButton {
@@ -29,8 +53,17 @@
 
 /* SideBar CSS */
 .sidebar {
-  background-color: pink;
   width: 20%;
+}
+
+.sidebar button {
+  display: block;
+  height: 30px;
+  width: 98%;
+  background-color: rgb(230, 227, 227);
+  border: none;
+  border-radius: 5px;
+  margin: 1px;
 }
 
 .main {
@@ -48,14 +81,36 @@
 
 .card {
   display: flex;
-  flex-direction: column;
   width: 30%;
-  border: 1px solid black;
+  flex-direction: column;
   margin: 10px;
+  cursor: pointer;
 }
 
 .card-body {
   display: flex;
+  margin: 5px;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.card-text p {
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.faded {
+  font-size: 75%;
+  color: #666;
 }
 
 .channelImage {
@@ -81,6 +136,62 @@
   width: 65%;
 }
 
+.description {
+  display: flex;
+  height: 30px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+
+.description-text {
+  margin-left: 20px;
+  background-color: rgb(158, 157, 157);
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.subscribe-button {
+  background-color: black;
+  color: white;
+  font-weight: 700;
+  height: 35px;
+  width: 90px;
+  border-radius: 25px;
+  margin: 10px;
+}
+
+.pill {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 35px;
+  width: 80px;
+  border-radius: 25px;
+  border: none;
+  margin: 5px;
+}
+
+.download-pill {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 35px;
+  width: 100px;
+  border-radius: 25px;
+  border: none;
+  margin: 5px;
+}
+
+.mixed-group {
+  display: flex;
+  align-items: center;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-around;
+}
 .suggestionBar {
   width: 30%;
   margin: 20px;

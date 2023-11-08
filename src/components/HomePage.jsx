@@ -1,19 +1,12 @@
 import React from "react";
 import VideoCard from "./VideoCard";
+import SideBar from "./SideBar";
 
 const HomePage = () => {
   return (
     <div className="main-flex-container">
       <div className="page">
-        <div className="sidebar">
-          <ul>
-            <li>Home</li>
-            <li>Shorts</li>
-            <li>Subscriptions</li>
-            <li>You</li>
-            <li>History</li>
-          </ul>
-        </div>
+        <SideBar />
 
         <div className="main">
           <VideoCard />
